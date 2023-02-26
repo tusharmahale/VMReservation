@@ -56,7 +56,7 @@ Failure Response
 }
 ```
 
-### Checkin VM - /checkin
+### Checking health of application - /health
 Returns Success if application is running fine
 ```json
 {
