@@ -12,7 +12,6 @@ To run the API, you must have Python 3 and the following packages installed:
 - paramiko
 - Flask
 - jsonify
-- requests
 
 ## Endpoints
 ### Checkout VM - /checkout

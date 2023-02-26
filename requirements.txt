@@ -5,4 +5,3 @@ string
 paramiko
 flask
 jsonify
-requests
