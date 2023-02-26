@@ -3,7 +3,7 @@
 This API provides endpoints to allow clients to check out and check in Virtual Machines (VMs) in a cloud environment. The API also includes functionality to perform cleanup on checked-in VMs before adding them back to the pool of available VMs.
 
 
-##Installation
+## Installation
 To run the API, you must have Python 3 and the following packages installed:
 - sqlite3
 - threading
@@ -11,7 +11,7 @@ To run the API, you must have Python 3 and the following packages installed:
 - string
 - paramiko
 
-##Endpoints
+## Endpoints
 Checkout VM - /checkout
 Request
 ```json
@@ -56,8 +56,8 @@ Failure Response
 }
 ```
 
-##Persistence
+## Persistence
 The API uses a file-based database to persist information about checked-out and available VMs. This means that if the API is restarted, it will still know all the information about VMs that have been checked out and VMs that are available.
 
-#Docker
+## Docker
 You can create docker container and deploy code as specified in Jenkinsfile
