@@ -56,6 +56,14 @@ Failure Response
 }
 ```
 
+### Checkin VM - /checkin
+Returns Success if application is running fine
+```json
+{
+  "status": "success"
+}
+```
+
 ## Persistence
 The API uses a file-based database to persist information about checked-out and available VMs. This means that if the API is restarted, it will still know all the information about VMs that have been checked out and VMs that are available.
 
