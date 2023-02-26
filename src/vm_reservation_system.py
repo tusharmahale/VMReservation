@@ -64,7 +64,7 @@ class VMReservationSystem:
         # result = c.fetchone()
         # count = result[0]
         # Add entries to DB
-        # c.execute("INSERT INTO vms ('ip_address', checked_out, checkedout_by_user_id) VALUES (?, 0)", ('10.20.0.11',,))
+        # c.execute("INSERT INTO vms ('ip_address', checked_out, checkedout_by_user_id) VALUES (?, 0, 0)", ('10.20.0.11',,))
         conn.commit()
         conn.close()
 
