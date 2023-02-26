@@ -12,7 +12,7 @@ To run the API, you must have Python 3 and the following packages installed:
 - paramiko
 
 ## Endpoints
-Checkout VM - /checkout
+### Checkout VM - /checkout
 Request
 ```json
 {
@@ -33,7 +33,7 @@ No VM available Response
   "status": "error"
 }
 ```
-Checkin VM - /checkin
+### Checkin VM - /checkin
 Request
 ```json
 {
